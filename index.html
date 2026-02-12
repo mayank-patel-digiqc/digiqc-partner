@@ -1,0 +1,1880 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Partner with digiQC - Transform Quality Management Together</title>
+    <link rel="icon" href="logos/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://js-na2.hsforms.net/forms/embed/22250220.js"
+      defer
+    ></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --primary-blue: #0f4c81;
+        --midnight-blue: #202a3f;
+        --bright-blue: #2e8bc0;
+        --dq-primary: #fc5027;
+        --dark-text: #1f2937;
+        --medium-gray: #6b7280;
+        --light-gray: #f3f4f6;
+        --white: #ffffff;
+      }
+
+      body {
+        font-family: "Rubik", sans-serif;
+        color: var(--dark-text);
+        line-height: 1.6;
+        background: var(--white);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      /* Header */
+      header {
+        background: var(--white);
+        border-bottom: 3px solid var(--primary-blue);
+        padding: 20px 0;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      }
+
+      .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo img {
+        height: 50px;
+      }
+
+      .cta-button {
+        background: var(--dq-primary);
+        color: var(--white);
+        padding: 12px 28px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .cta-button:hover {
+        background: #ff784f;
+      }
+
+      /* Hero Section */
+      .hero {
+        background: linear-gradient(
+          135deg,
+          var(--midnight-blue) 0%,
+          #344563 100%
+        );
+        color: var(--white);
+        padding: 80px 0 100px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="1.5" fill="rgba(255,255,255,0.1)"/></svg>');
+        opacity: 0.4;
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .hero h1 {
+        font-size: 56px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        line-height: 1.1;
+        animation: fadeInUp 0.8s ease-out;
+      }
+
+      .hero .subheadline {
+        font-size: 30px;
+        margin-bottom: 40px;
+        opacity: 0.95;
+        font-weight: 400;
+        animation: fadeInUp 0.8s ease-out 0.2s backwards;
+      }
+
+      .hero .cta-button {
+        font-size: 18px;
+        padding: 16px 40px;
+        animation: fadeInUp 0.8s ease-out 0.4s backwards;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Value Proposition */
+      .value-prop {
+        padding: 80px 0;
+        background: var(--white);
+      }
+
+      .value-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+        margin-top: 50px;
+      }
+
+      .value-card {
+        background: var(--light-gray);
+        padding: 40px 30px;
+        border-radius: 12px;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        border: 2px solid transparent;
+      }
+
+      .value-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+
+      .value-card h3 {
+        font-size: 24px;
+        color: var(--midnight-blue);
+        margin-bottom: 16px;
+        font-weight: 700;
+      }
+
+      .value-card p {
+        color: var(--medium-gray);
+        font-size: 16px;
+        line-height: 1.7;
+      }
+
+      /* Section Heading */
+      .section-heading {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .section-heading h2 {
+        font-size: 42px;
+        color: var(--midnight-blue);
+        margin-bottom: 16px;
+        font-weight: 700;
+      }
+
+      .section-heading p {
+        font-size: 20px;
+        color: var(--medium-gray);
+        max-width: 700px;
+        margin: 0 auto;
+      }
+
+      .section-heading .section-subtitle-bold {
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--midnight-blue);
+        margin-top: 8px;
+      }
+
+      /* Who This Is For */
+      .who-section {
+        padding: 80px 0;
+        background: var(--light-gray);
+      }
+
+      .profile-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-top: 50px;
+      }
+
+      .profile-card {
+        background: var(--white);
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+        border-left: 4px solid var(--dq-primary);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .profile-card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+
+      .profile-card .icon {
+        font-size: 48px;
+        margin-bottom: 16px;
+      }
+
+      .profile-card h3 {
+        font-size: 20px;
+        color: var(--midnight-blue);
+        font-weight: 600;
+      }
+
+      /* Partners Say Section */
+      .partners-say {
+        padding: 80px 0;
+        background: var(--white);
+      }
+
+      .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-top: 50px;
+      }
+
+      .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .video-wrapper:hover {
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      }
+
+      .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 12px;
+      }
+
+      /* Benefits Section */
+      .benefits {
+        padding: 80px 0;
+        background: var(--white);
+      }
+
+      .benefits-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 40px;
+        margin-top: 50px;
+      }
+
+      .benefit-card {
+        background: linear-gradient(135deg, var(--light-gray) 0%, #e5e7eb 100%);
+        padding: 35px;
+        border-radius: 12px;
+        border-top: 4px solid var(--bright-blue);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .benefit-card:hover {
+        border-top-color: var(--dq-primary);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+
+      .benefit-card h3 {
+        font-size: 22px;
+        color: var(--midnight-blue);
+        margin-bottom: 12px;
+        font-weight: 700;
+      }
+
+      .benefit-card p {
+        color: var(--medium-gray);
+        line-height: 1.7;
+      }
+
+      /* How It Works */
+      .how-it-works {
+        padding: 80px 0;
+        background: var(--light-gray);
+      }
+
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-top: 50px;
+        position: relative;
+      }
+
+      .step {
+        background: var(--white);
+        padding: 40px 30px;
+        border-radius: 12px;
+        text-align: center;
+        position: relative;
+      }
+
+      .step-number {
+        width: 60px;
+        height: 60px;
+        background: var(--dq-primary);
+        color: var(--white);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0 auto 20px;
+      }
+
+      .step h3 {
+        font-size: 22px;
+        color: var(--midnight-blue);
+        margin-bottom: 12px;
+        font-weight: 600;
+      }
+
+      .step p {
+        color: var(--medium-gray);
+      }
+
+      /* Success Story */
+      .success-story {
+        padding: 80px 0;
+        background: var(--white);
+      }
+
+      /* Logos Grid */
+      .logos-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 16px;
+        row-gap: 16px;
+        order: 1;
+        margin-top: 50px;
+      }
+
+      .logo-item {
+        flex: auto;
+        justify-content: center;
+        align-self: center;
+        width: 11.75rem;
+        max-width: 100%;
+        height: 7.5rem;
+        max-height: 100%;
+        display: flex;
+      }
+
+      .logo-item img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
+
+      .logo-item-dark {
+        background: var(--midnight-blue);
+        border-radius: 8px;
+        padding: 10px;
+        width: 9rem;
+        height: 5.5rem;
+      }
+
+      /* FAQ Section */
+      .faq {
+        padding: 80px 0;
+        background: var(--light-gray);
+      }
+
+      .faq-list {
+        max-width: 900px;
+        margin: 50px auto 0;
+      }
+
+      .faq-item {
+        background-color: var(--light-gray);
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        padding: 1rem 1.5rem;
+        border: 0.125rem solid rgb(205, 213, 224);
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+        overflow: hidden;
+      }
+
+      .faq-item.active {
+        border-color: var(--dq-primary);
+      }
+
+      .faq-item.active .faq-question {
+        color: var(--dq-primary);
+      }
+
+      .faq-question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        color: var(--midnight-blue);
+        font-size: 16px;
+      }
+
+      .faq-question::after {
+        content: ">";
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--midnight-blue);
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .faq-item.active .faq-question::after {
+        transform: rotate(90deg);
+        color: var(--dq-primary);
+      }
+
+      .faq-answer {
+        max-height: 0;
+        opacity: 0;
+        transform: scale(0.95);
+        transition: all 0.25s ease-out;
+      }
+
+      .faq-item.active .faq-answer {
+        max-height: 200px;
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .faq-answer-content {
+        padding: 0.5rem 0 0;
+        color: var(--medium-gray);
+        line-height: 1.7;
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+          rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+        opacity: 1;
+        transform-style: preserve-3d;
+      }
+
+      /* Form Section */
+      .form-section {
+        padding: 80px 0;
+        background: var(--white);
+      }
+
+      .form-container {
+        max-width: 700px;
+        margin: 50px auto 0;
+        background: var(--light-gray);
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+      }
+
+      .form-step {
+        display: none;
+      }
+
+      .form-step.active {
+        display: block;
+        animation: fadeIn 0.5s ease;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .form-progress {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+        gap: 10px;
+      }
+
+      .progress-dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #d1d5db;
+        transition: all 0.3s ease;
+      }
+
+      .progress-dot.active {
+        background: var(--dq-primary);
+        transform: scale(1.3);
+      }
+
+      .form-group {
+        margin-bottom: 25px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: var(--dark-text);
+      }
+
+      .form-group label .required {
+        color: var(--dq-primary);
+      }
+
+      .phone-input-group {
+        display: flex;
+        gap: 10px;
+      }
+
+      .form-group .phone-input-group select {
+        width: 20%;
+        min-width: 120px;
+        flex-shrink: 0;
+      }
+
+      .form-group .phone-input-group input {
+        width: 80%;
+        flex: 1;
+        min-width: 0;
+      }
+
+      .form-group input,
+      .form-group select,
+      .form-group textarea {
+        width: 100%;
+        padding: 14px 16px;
+        border: 2px solid #d1d5db;
+        border-radius: 8px;
+        font-size: 16px;
+        font-family: "Rubik", sans-serif;
+        transition: all 0.3s ease;
+      }
+
+      .form-group input:focus,
+      .form-group select:focus,
+      .form-group textarea:focus {
+        outline: none;
+        border-color: var(--dq-primary);
+        box-shadow: 0 0 0 3px rgba(252, 80, 39, 0.1);
+      }
+
+      .form-group textarea {
+        resize: vertical;
+        min-height: 100px;
+      }
+
+      .checkbox-group label {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--medium-gray);
+        line-height: 1.5;
+        cursor: pointer;
+      }
+
+      .checkbox-group input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        margin-top: 2px;
+        flex-shrink: 0;
+        accent-color: var(--dq-primary);
+        cursor: pointer;
+      }
+
+      .form-buttons {
+        display: flex;
+        gap: 15px;
+        justify-content: space-between;
+        margin-top: 30px;
+      }
+
+      .btn-secondary {
+        background: #9ca3af;
+        color: var(--white);
+        padding: 14px 32px;
+        border-radius: 8px;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .btn-secondary:hover {
+        background: #e3e3e3;
+        color: var(--dark-text);
+      }
+
+      .btn-primary {
+        background: var(--dq-primary);
+        color: var(--white);
+        padding: 14px 32px;
+        border-radius: 8px;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        flex: 1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+      }
+
+      .btn-primary:hover {
+        background: #ff784f;
+      }
+
+      /* Thank You Screen */
+      .thank-you {
+        display: none;
+        text-align: center;
+        padding: 60px 40px;
+      }
+
+      .thank-you.active {
+        display: block;
+        animation: fadeIn 0.5s ease;
+      }
+
+      .thank-you .icon {
+        font-size: 80px;
+        margin-bottom: 20px;
+      }
+
+      .thank-you h3 {
+        font-size: 32px;
+        color: var(--midnight-blue);
+        margin-bottom: 16px;
+      }
+
+      .thank-you p {
+        font-size: 18px;
+        color: var(--medium-gray);
+        margin-bottom: 12px;
+      }
+
+      /* Footer */
+      footer {
+        background: var(--midnight-blue);
+        color: var(--white);
+        padding: 60px 0 30px;
+      }
+
+      .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 40px;
+        margin-bottom: 40px;
+      }
+
+      .footer-section h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      .footer-section p,
+      .footer-section a {
+        color: var(--white);
+        text-decoration: none;
+        display: block;
+        margin-bottom: 10px;
+        transition: color 0.3s ease;
+      }
+
+      .footer-section a:hover {
+        color: var(--dq-primary);
+      }
+
+      .footer-bottom {
+        text-align: center;
+        padding-top: 30px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        color: var(--white);
+      }
+
+      .footer-bottom a {
+        color: var(--white);
+        text-decoration: none;
+      }
+
+      .footer-bottom a:hover {
+        color: var(--dq-primary);
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .hero h1 {
+          font-size: 36px;
+        }
+
+        .hero .subheadline {
+          font-size: 18px;
+        }
+
+        .section-heading h2 {
+          font-size: 32px;
+        }
+
+        .value-grid,
+        .benefits-grid,
+        .steps,
+        .profile-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .testimonials-grid {
+          grid-template-columns: 1fr;
+          max-width: 600px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .section-heading .section-subtitle-bold {
+          font-size: 22px;
+        }
+
+        .form-container {
+          padding: 30px 20px;
+        }
+
+        .form-buttons {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HubSpot tracking (hidden - custom form submits via API) -->
+    <div
+      class="hs-form-frame"
+      data-region="na2"
+      data-form-id="d6396342-3735-429b-b01d-1ee4ab5e20e2"
+      data-portal-id="22250220"
+      style="display: none"
+    ></div>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <img
+              src="https://cdn.prod.website-files.com/5fc871d01dcc772c6af04548/6481c4fdf3b420bf402bc348_logo.svg"
+              alt="digiQC"
+            />
+          </div>
+          <a href="#apply-form" class="cta-button">Apply to Partner</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Partner with digiQC</h1>
+          <p class="subheadline">
+            You Define the Standards. We Ensure They are Delivered.
+            Consistently, Transparently, and at Scale.
+          </p>
+          <a href="#apply-form" class="cta-button">Apply to Partner</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value Proposition -->
+    <section class="value-prop">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Why Partner with digiQC?</h2>
+        </div>
+        <div class="value-grid">
+          <div class="value-card">
+            <h3>💡 Amplify Your Impact</h3>
+            <p>
+              Tools that back your expertise. Your clients trust you for quality
+              frameworks—digiQC turns your guidance into measurable outcomes.
+            </p>
+          </div>
+          <div class="value-card">
+            <h3>💰 Revenue Opportunity</h3>
+            <p>
+              Competitive benefits structure. Package digiQC into your services
+              at partner pricing, or earn revenue share on client subscriptions.
+            </p>
+          </div>
+          <div class="value-card">
+            <h3>🤝 Full Support</h3>
+            <p>
+              Dedicated partnership manager, comprehensive training, co-branded
+              materials, and technical implementation support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Who This Is For -->
+    <section class="who-section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Who This Is For</h2>
+          <p>
+            If you help clients improve quality, compliance, or project
+            execution, this partnership is for you
+          </p>
+        </div>
+        <div class="profile-grid">
+          <div class="profile-card">
+            <div class="icon">🎯</div>
+            <h3>Project Management Consultants</h3>
+          </div>
+          <div class="profile-card">
+            <div class="icon">✅</div>
+            <h3>Quality & Safety Management Consultants</h3>
+          </div>
+          <div class="profile-card">
+            <div class="icon">📋</div>
+            <h3>ISO/Compliance Consultants</h3>
+          </div>
+          <div class="profile-card">
+            <div class="icon">🏗️</div>
+            <h3>Construction Advisory Firms</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What Our Partners Say -->
+    <section class="partners-say">
+      <div class="container">
+        <div class="section-heading">
+          <h2>What Our Partners Say?</h2>
+          <p>
+            Hear from consultants who have transformed their practice with
+            digiQC
+          </p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/zQq7Lu_L3-U?si=j5raL-JmJyITV7-1"
+              title="YouTube video player"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/vZvNc7_QU0A"
+              title="Kirit Patel, Founder at Aryaanya shares his views on digiQC"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/VMUwnSf1u3Q?si=24_pHVMlO1yZU9eB"
+              title="YouTube video player"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partnership Benefits -->
+    <section class="benefits">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Partnership Benefits</h2>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <h3>Flexible Revenue Models</h3>
+            <p>
+              <strong>Package it:</strong> Get deep partner discount pricing to
+              include digiQC in your service offerings.<br /><br /><strong
+                >Refer it:</strong
+              >
+              Earn revenue share when clients subscribe directly to digiQC.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <h3>Dedicated Partnership Manager</h3>
+            <p>
+              Personal support for client introductions, onboarding assistance,
+              and maximizing value delivery for your consulting practice.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <h3>Co-Branded Materials</h3>
+            <p>
+              Present digiQC as an extension of your consulting practice with
+              customized collateral and joint branding.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <h3>Training & Certification</h3>
+            <p>
+              Get your team certified on the digiQC platform with comprehensive
+              training resources and live support sessions.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <h3>Technical Implementation Support</h3>
+            <p>
+              Full onboarding assistance and ongoing technical support to ensure
+              seamless client rollout and adoption.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <h3>Early Access to Updates</h3>
+            <p>
+              Be the first to know about new features, product enhancements, and
+              industry developments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Your Partnership Journey</h2>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Apply</h3>
+            <p>Submit your information through the application form below</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Review</h3>
+            <p>
+              Schedule a discovery call to establish strategic & operational fit
+            </p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Onboard</h3>
+            <p>Training, co-branded materials, and partnership setup</p>
+          </div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <h3>Launch</h3>
+            <p>Use digiQC and unlock value for your clients</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Success Story -->
+    <section class="success-story">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Trusted by Leading Organizations</h2>
+          <h3 class="section-subtitle-bold">
+            Used on 500+ Projects Across India, & Beyond
+          </h3>
+        </div>
+        <div class="logos-grid">
+          <div class="logo-item">
+            <img src="logos/tekton.webp" alt="Tekton" />
+          </div>
+          <div class="logo-item">
+            <img src="logos/scon.svg" alt="SCON" />
+          </div>
+          <div class="logo-item">
+            <img src="logos/vascon.svg" alt="Vascon" />
+          </div>
+          <div class="logo-item">
+            <img src="logos/raymond.svg" alt="Raymond Realty" />
+          </div>
+          <div class="logo-item">
+            <img src="logos/HFE.svg" alt="Hero Future Energies" />
+          </div>
+          <div class="logo-item">
+            <img src="logos/schuco.svg" alt="Schuco" />
+          </div>
+          <div class="logo-item">
+            <img src="logos/saheel.svg" alt="Saheel" />
+          </div>
+          <div class="logo-item logo-item-dark">
+            <img src="logos/legacy.webp" alt="Legacy" />
+          </div>
+          <div class="logo-item">
+            <img src="logos/sj-contraacts.jpg" alt="SJ Contracts Pvt Ltd" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <!-- <section class="faq">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-question">
+              What types of consultants are you looking for?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                We partner with Project Management Consultants, Quality
+                Management Consultants, ISO/Compliance Consultants, and
+                Construction Advisory Firms who work with clients on quality,
+                compliance, and project execution. Minimum requirements: 3
+                active clients and 3 concurrent projects.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">How does the revenue structure work?</div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                We offer two flexible models:<br /><br />
+                <strong>1. Package Model:</strong> Include digiQC in your
+                service offerings at deep partner discount pricing, allowing you
+                to charge clients higher overall fees.<br /><br />
+                <strong>2. Referral Model:</strong> When clients subscribe to
+                digiQC directly through your introduction, you earn ongoing
+                revenue share.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">How long does onboarding take?</div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Partnership onboarding typically takes 5-9 days and includes:
+                comprehensive platform training, co-branded marketing materials
+                setup, technical documentation access, and introduction to your
+                dedicated partnership manager.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              What support do you provide during client implementations?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Full technical implementation support including: project setup
+                assistance, customized training for client teams, ongoing
+                technical troubleshooting, and access to our support team via
+                in-app help, WhatsApp AI chat, and direct hotline for urgent
+                issues.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              What are the geographic restrictions?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                We accept partners from any geography where the digiQC mobile
+                apps are accessible through Apple App Store and Google Play
+                Store. This includes most countries worldwide.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              What resources will I receive as a partner?
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Partners receive: partnership agreement with clear terms,
+                co-branded marketing collateral (flyers, decks, case studies),
+                comprehensive technical documentation, access to training
+                materials at academy.digiqc.com, direct line to partnership
+                team, and early access to new features.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Application Form -->
+    <section class="form-section" id="apply-form">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Apply for Partnership</h2>
+        </div>
+        <div class="form-container">
+          <div class="form-progress">
+            <div class="progress-dot active" data-step="1"></div>
+            <div class="progress-dot" data-step="2"></div>
+          </div>
+
+          <form id="partnershipForm">
+            <!-- Step 1: Basic Information -->
+            <div class="form-step active" data-step="1">
+              <h3 style="margin-bottom: 30px; color: var(--midnight-blue)">
+                Basic Information
+              </h3>
+
+              <div class="form-group">
+                <label>Full Name <span class="required">*</span></label>
+                <input type="text" name="fullName" required />
+              </div>
+
+              <div class="form-group">
+                <label>Email <span class="required">*</span></label>
+                <input type="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label>Phone <span class="required">*</span></label>
+                <div class="phone-input-group">
+                  <select
+                    name="countryCode"
+                    id="countryCodeSelect"
+                    required
+                  ></select>
+                  <input
+                    type="tel"
+                    name="phone"
+                    required
+                    pattern="[0-9]+"
+                    title="Please enter numbers only"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Company Name <span class="required">*</span></label>
+                <input type="text" name="companyName" required />
+              </div>
+
+              <div class="form-group">
+                <label
+                  >Primary Service Area <span class="required">*</span></label
+                >
+                <select name="serviceArea" required>
+                  <option value="">Select...</option>
+                  <option value="project-management">
+                    Project Management Consulting
+                  </option>
+                  <option value="quality-consulting">
+                    Quality Management Consulting
+                  </option>
+                  <option value="iso-compliance">
+                    ISO/Compliance Consulting
+                  </option>
+                  <option value="construction-advisory">
+                    Construction Advisory
+                  </option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group checkbox-group">
+                <label>
+                  <input type="checkbox" name="authorised" required />
+                  <span class="required">*</span>
+                  By submitting this form, I confirm that I am authorised person
+                  in the company to initiate this discussion and can be reached
+                  on provided contacts.
+                </label>
+              </div>
+
+              <div class="form-buttons">
+                <button type="button" class="btn-primary" onclick="nextStep()">
+                  Next
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 2: Detailed Information -->
+            <div class="form-step" data-step="2">
+              <h3 style="margin-bottom: 30px; color: var(--midnight-blue)">
+                Additional Details (Optional)
+              </h3>
+
+              <div class="form-group">
+                <label>LinkedIn Profile</label>
+                <input type="url" name="linkedin" />
+              </div>
+
+              <div class="form-group">
+                <label>Company Website</label>
+                <input type="url" name="website" />
+              </div>
+
+              <div class="form-group">
+                <label>Company Size</label>
+                <select name="companySize">
+                  <option value="">Select...</option>
+                  <option value="1-5">1-5 employees</option>
+                  <option value="6-20">6-20 employees</option>
+                  <option value="21-50">21-50 employees</option>
+                  <option value="50+">50+ employees</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Years in Business</label>
+                <input type="number" name="yearsInBusiness" min="0" />
+              </div>
+
+              <div class="form-group">
+                <label>Geographic Focus</label>
+                <input
+                  type="text"
+                  name="geographicFocus"
+                  placeholder="e.g., India, Middle East, Southeast Asia"
+                />
+              </div>
+
+              <div class="form-group">
+                <label>Current Client Base Size</label>
+                <select name="clientBase">
+                  <option value="">Select...</option>
+                  <option value="1-10">1-10 clients</option>
+                  <option value="11-25">11-25 clients</option>
+                  <option value="26-50">26-50 clients</option>
+                  <option value="50+">50+ clients</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label
+                  >What challenges do your clients face with quality
+                  management?</label
+                >
+                <textarea
+                  name="clientChallenges"
+                  placeholder="Tell us about the pain points your clients experience..."
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <label
+                  >How do you see digiQC fitting into your service
+                  offering?</label
+                >
+                <textarea
+                  name="fitRationale"
+                  placeholder="Share your vision for integrating digiQC..."
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <label>How did you hear about us?</label>
+                <select name="hearAbout">
+                  <option value="">Select...</option>
+                  <option value="website">digiQC Website</option>
+                  <option value="referral">Referral</option>
+                  <option value="linkedin">LinkedIn</option>
+                  <option value="event">Event/Conference</option>
+                  <option value="search">Search Engine</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Any questions for us?</label>
+                <textarea
+                  name="questions"
+                  placeholder="Feel free to ask anything..."
+                ></textarea>
+              </div>
+
+              <div class="form-buttons">
+                <button
+                  type="button"
+                  class="btn-secondary"
+                  onclick="prevStep()"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+                    ></path>
+                  </svg>
+                  Back
+                </button>
+                <button type="submit" class="btn-primary">
+                  Submit Application
+                </button>
+              </div>
+            </div>
+          </form>
+
+          <!-- Thank You Message -->
+          <div class="thank-you">
+            <div class="icon">✅</div>
+            <h3>Application Received!</h3>
+            <p>Thank you for your interest in partnering with digiQC.</p>
+            <p>We've sent a confirmation email to your inbox.</p>
+            <p style="margin-top: 30px; font-weight: 600">What happens next?</p>
+            <p>
+              Our partnership team will review your application and reach out
+              within 48 hours to schedule a discovery call.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>digiQC</h4>
+            <p>
+              Empowering Quality Excellence with Accountability & Authenticity
+            </p>
+            <p>Reduce Rework and Risks – Build Right the First Time</p>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <a
+              href="https://www.digiqc.com/about"
+              target="_blank"
+              rel="noopener noreferrer"
+              >About Us</a
+            >
+            <a
+              href="https://www.digiqc.com/solutions/solution-for-consultants"
+              target="_blank"
+              rel="noopener noreferrer"
+              >For Consultants</a
+            >
+            <a
+              href="https://www.digiqc.com/success-stories"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Success Stories</a
+            >
+            <a
+              href="https://academy.digiqc.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >digiQC Academy</a
+            >
+          </div>
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <a href="mailto:partners@digiqc.com">partners@digiqc.com</a>
+            <a
+              href="https://www.digiqc.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >www.digiqc.com</a
+            >
+            <a
+              href="https://www.digiqc.com/schedule-a-demo"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Schedule a Demo</a
+            >
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2024 digiQC. All rights reserved. |
+            <a
+              href="https://www.digiqc.com/privacy-policy"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="display: inline"
+              >Privacy Policy</a
+            >
+            |
+            <a
+              href="https://www.digiqc.com/terms-and-conditions"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="display: inline"
+              >Terms & Conditions</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Country Code Dropdown
+      const countryCodes = [
+        { f: "🇦🇩", d: "+376", n: "Andorra" },
+        { f: "🇦🇪", d: "+971", n: "UAE" },
+        { f: "🇦🇫", d: "+93", n: "Afghanistan" },
+        { f: "🇦🇬", d: "+1268", n: "Antigua & Barbuda" },
+        { f: "🇦🇱", d: "+355", n: "Albania" },
+        { f: "🇦🇲", d: "+374", n: "Armenia" },
+        { f: "🇦🇴", d: "+244", n: "Angola" },
+        { f: "🇦🇷", d: "+54", n: "Argentina" },
+        { f: "🇦🇹", d: "+43", n: "Austria" },
+        { f: "🇦🇺", d: "+61", n: "Australia" },
+        { f: "🇦🇿", d: "+994", n: "Azerbaijan" },
+        { f: "🇧🇦", d: "+387", n: "Bosnia & Herzegovina" },
+        { f: "🇧🇧", d: "+1246", n: "Barbados" },
+        { f: "🇧🇩", d: "+880", n: "Bangladesh" },
+        { f: "🇧🇪", d: "+32", n: "Belgium" },
+        { f: "🇧🇬", d: "+359", n: "Bulgaria" },
+        { f: "🇧🇭", d: "+973", n: "Bahrain" },
+        { f: "🇧🇷", d: "+55", n: "Brazil" },
+        { f: "🇧🇸", d: "+1242", n: "Bahamas" },
+        { f: "🇧🇹", d: "+975", n: "Bhutan" },
+        { f: "🇧🇼", d: "+267", n: "Botswana" },
+        { f: "🇧🇾", d: "+375", n: "Belarus" },
+        { f: "🇧🇿", d: "+501", n: "Belize" },
+        { f: "🇨🇦", d: "+1", n: "Canada" },
+        { f: "🇨🇭", d: "+41", n: "Switzerland" },
+        { f: "🇨🇱", d: "+56", n: "Chile" },
+        { f: "🇨🇳", d: "+86", n: "China" },
+        { f: "🇨🇴", d: "+57", n: "Colombia" },
+        { f: "🇨🇷", d: "+506", n: "Costa Rica" },
+        { f: "🇨🇺", d: "+53", n: "Cuba" },
+        { f: "🇨🇾", d: "+357", n: "Cyprus" },
+        { f: "🇨🇿", d: "+420", n: "Czechia" },
+        { f: "🇩🇪", d: "+49", n: "Germany" },
+        { f: "🇩🇰", d: "+45", n: "Denmark" },
+        { f: "🇩🇴", d: "+1849", n: "Dominican Republic" },
+        { f: "🇩🇿", d: "+213", n: "Algeria" },
+        { f: "🇪🇨", d: "+593", n: "Ecuador" },
+        { f: "🇪🇪", d: "+372", n: "Estonia" },
+        { f: "🇪🇬", d: "+20", n: "Egypt" },
+        { f: "🇪🇸", d: "+34", n: "Spain" },
+        { f: "🇪🇹", d: "+251", n: "Ethiopia" },
+        { f: "🇫🇮", d: "+358", n: "Finland" },
+        { f: "🇫🇯", d: "+679", n: "Fiji" },
+        { f: "🇫🇷", d: "+33", n: "France" },
+        { f: "🇬🇧", d: "+44", n: "United Kingdom" },
+        { f: "🇬🇪", d: "+995", n: "Georgia" },
+        { f: "🇬🇭", d: "+233", n: "Ghana" },
+        { f: "🇬🇷", d: "+30", n: "Greece" },
+        { f: "🇬🇹", d: "+502", n: "Guatemala" },
+        { f: "🇭🇰", d: "+852", n: "Hong Kong" },
+        { f: "🇭🇳", d: "+504", n: "Honduras" },
+        { f: "🇭🇷", d: "+385", n: "Croatia" },
+        { f: "🇭🇺", d: "+36", n: "Hungary" },
+        { f: "🇮🇩", d: "+62", n: "Indonesia" },
+        { f: "🇮🇪", d: "+353", n: "Ireland" },
+        { f: "🇮🇱", d: "+972", n: "Israel" },
+        { f: "🇮🇳", d: "+91", n: "India" },
+        { f: "🇮🇶", d: "+964", n: "Iraq" },
+        { f: "🇮🇷", d: "+98", n: "Iran" },
+        { f: "🇮🇸", d: "+354", n: "Iceland" },
+        { f: "🇮🇹", d: "+39", n: "Italy" },
+        { f: "🇯🇲", d: "+1876", n: "Jamaica" },
+        { f: "🇯🇴", d: "+962", n: "Jordan" },
+        { f: "🇯🇵", d: "+81", n: "Japan" },
+        { f: "🇰🇪", d: "+254", n: "Kenya" },
+        { f: "🇰🇭", d: "+855", n: "Cambodia" },
+        { f: "🇰🇷", d: "+82", n: "South Korea" },
+        { f: "🇰🇼", d: "+965", n: "Kuwait" },
+        { f: "🇰🇿", d: "+77", n: "Kazakhstan" },
+        { f: "🇱🇧", d: "+961", n: "Lebanon" },
+        { f: "🇱🇰", d: "+94", n: "Sri Lanka" },
+        { f: "🇱🇹", d: "+370", n: "Lithuania" },
+        { f: "🇱🇺", d: "+352", n: "Luxembourg" },
+        { f: "🇱🇻", d: "+371", n: "Latvia" },
+        { f: "🇱🇾", d: "+218", n: "Libya" },
+        { f: "🇲🇦", d: "+212", n: "Morocco" },
+        { f: "🇲🇩", d: "+373", n: "Moldova" },
+        { f: "🇲🇬", d: "+261", n: "Madagascar" },
+        { f: "🇲🇲", d: "+95", n: "Myanmar" },
+        { f: "🇲🇳", d: "+976", n: "Mongolia" },
+        { f: "🇲🇽", d: "+52", n: "Mexico" },
+        { f: "🇲🇾", d: "+60", n: "Malaysia" },
+        { f: "🇲🇿", d: "+258", n: "Mozambique" },
+        { f: "🇳🇦", d: "+264", n: "Namibia" },
+        { f: "🇳🇬", d: "+234", n: "Nigeria" },
+        { f: "🇳🇱", d: "+31", n: "Netherlands" },
+        { f: "🇳🇴", d: "+47", n: "Norway" },
+        { f: "🇳🇵", d: "+977", n: "Nepal" },
+        { f: "🇳🇿", d: "+64", n: "New Zealand" },
+        { f: "🇴🇲", d: "+968", n: "Oman" },
+        { f: "🇵🇦", d: "+507", n: "Panama" },
+        { f: "🇵🇪", d: "+51", n: "Peru" },
+        { f: "🇵🇭", d: "+63", n: "Philippines" },
+        { f: "🇵🇰", d: "+92", n: "Pakistan" },
+        { f: "🇵🇱", d: "+48", n: "Poland" },
+        { f: "🇵🇹", d: "+351", n: "Portugal" },
+        { f: "🇶🇦", d: "+974", n: "Qatar" },
+        { f: "🇷🇴", d: "+40", n: "Romania" },
+        { f: "🇷🇸", d: "+381", n: "Serbia" },
+        { f: "🇷🇺", d: "+7", n: "Russia" },
+        { f: "🇸🇦", d: "+966", n: "Saudi Arabia" },
+        { f: "🇸🇪", d: "+46", n: "Sweden" },
+        { f: "🇸🇬", d: "+65", n: "Singapore" },
+        { f: "🇸🇮", d: "+386", n: "Slovenia" },
+        { f: "🇸🇰", d: "+421", n: "Slovakia" },
+        { f: "🇸🇳", d: "+221", n: "Senegal" },
+        { f: "🇹🇭", d: "+66", n: "Thailand" },
+        { f: "🇹🇳", d: "+216", n: "Tunisia" },
+        { f: "🇹🇷", d: "+90", n: "Turkey" },
+        { f: "🇹🇼", d: "+886", n: "Taiwan" },
+        { f: "🇹🇿", d: "+255", n: "Tanzania" },
+        { f: "🇺🇦", d: "+380", n: "Ukraine" },
+        { f: "🇺🇬", d: "+256", n: "Uganda" },
+        { f: "🇺🇸", d: "+1", n: "United States" },
+        { f: "🇺🇾", d: "+598", n: "Uruguay" },
+        { f: "🇺🇿", d: "+998", n: "Uzbekistan" },
+        { f: "🇻🇪", d: "+58", n: "Venezuela" },
+        { f: "🇻🇳", d: "+84", n: "Vietnam" },
+        { f: "🇿🇦", d: "+27", n: "South Africa" },
+        { f: "🇿🇲", d: "+260", n: "Zambia" },
+        { f: "🇿🇼", d: "+263", n: "Zimbabwe" },
+      ];
+
+      const countrySelect = document.getElementById("countryCodeSelect");
+      countryCodes.forEach((c) => {
+        const option = document.createElement("option");
+        option.value = c.d;
+        option.textContent = c.f + "  " + c.d;
+        if (c.d === "+91") option.selected = true;
+        countrySelect.appendChild(option);
+      });
+
+      // FAQ Accordion
+      document.querySelectorAll(".faq-question").forEach((question) => {
+        question.addEventListener("click", () => {
+          const item = question.parentElement;
+          const wasActive = item.classList.contains("active");
+
+          // Close all items
+          document
+            .querySelectorAll(".faq-item")
+            .forEach((i) => i.classList.remove("active"));
+
+          // Open clicked item if it wasn't active
+          if (!wasActive) {
+            item.classList.add("active");
+          }
+        });
+      });
+
+      // Multi-step Form
+      let currentStep = 1;
+
+      function nextStep() {
+        // Validate current step
+        const currentFormStep = document.querySelector(
+          `.form-step[data-step="${currentStep}"]`,
+        );
+        const inputs = currentFormStep.querySelectorAll(
+          "input[required], select[required]",
+        );
+        let valid = true;
+
+        for (const input of inputs) {
+          if (!input.reportValidity()) {
+            return;
+          }
+        }
+
+        // Save basic info and submit to HubSpot
+        if (currentStep === 1) {
+          const formData = new FormData(
+            document.getElementById("partnershipForm"),
+          );
+          const basicData = {
+            fullName: formData.get("fullName"),
+            email: formData.get("email"),
+            countryCode: formData.get("countryCode"),
+            phone: formData.get("phone"),
+            companyName: formData.get("companyName"),
+            serviceArea: formData.get("serviceArea"),
+            authorised: formData.get("authorised") === "on",
+            timestamp: new Date().toISOString(),
+          };
+          localStorage.setItem(
+            "partnershipBasicInfo",
+            JSON.stringify(basicData),
+          );
+
+          // Submit Step 1 data to HubSpot
+          submitToHubSpot(basicData).catch((error) => {
+            console.error("HubSpot Step 1 submission error:", error);
+          });
+        }
+
+        // Move to next step
+        currentStep++;
+        updateFormStep();
+      }
+
+      function prevStep() {
+        currentStep--;
+        updateFormStep();
+      }
+
+      function updateFormStep() {
+        document.querySelectorAll(".form-step").forEach((step) => {
+          step.classList.remove("active");
+        });
+        document
+          .querySelector(`.form-step[data-step="${currentStep}"]`)
+          .classList.add("active");
+
+        document.querySelectorAll(".progress-dot").forEach((dot) => {
+          const dotStep = parseInt(dot.dataset.step);
+          if (dotStep <= currentStep) {
+            dot.classList.add("active");
+          } else {
+            dot.classList.remove("active");
+          }
+        });
+      }
+
+      // HubSpot Form Submission
+      const HUBSPOT_PORTAL_ID = "22250220";
+      const HUBSPOT_FORM_ID = "d6396342-3735-429b-b01d-1ee4ab5e20e2";
+      const HUBSPOT_SUBMIT_URL = `https://api.hsforms.com/submissions/v3/integration/submit/${HUBSPOT_PORTAL_ID}/${HUBSPOT_FORM_ID}`;
+
+      function submitToHubSpot(completeData) {
+        const fields = [
+          { name: "firstname", value: completeData.fullName || "" },
+          { name: "email", value: completeData.email || "" },
+          {
+            name: "phone",
+            value:
+              (completeData.countryCode || "") + (completeData.phone || ""),
+          },
+          { name: "company", value: completeData.companyName || "" },
+          {
+            name: "organization_type",
+            value: completeData.serviceArea || "",
+          },
+          {
+            name: "by_submitting_this_form__i_confirm_that_i_am_authorised_person_in_the_company_to_initiate_this_disc",
+            value: completeData.authorised ? "true" : "false",
+          },
+          { name: "linkedin", value: completeData.linkedin || "" },
+          {
+            name: "company_url",
+            value: completeData.website || "",
+          },
+          {
+            name: "numemployees",
+            value: completeData.companySize || "",
+          },
+          {
+            name: "strong_years_in_business__strong_",
+            value: completeData.yearsInBusiness || "",
+          },
+          {
+            name: "span_style__background_color___f3f4f6__font_weight__600__color___1f2937__font_size__medium___geogra",
+            value: completeData.geographicFocus || "",
+          },
+          {
+            name: "span_style__background_color___f3f4f6__font_weight__600__color___1f2937__font_size__medium___curren",
+            value: completeData.clientBase || "",
+          },
+          {
+            name: "span_style__background_color___f3f4f6__font_weight__600__color___1f2937__font_size__medium___what_c",
+            value: completeData.clientChallenges || "",
+          },
+          {
+            name: "span_style__background_color___f3f4f6__font_weight__600__color___1f2937__font_size__medium___how_do",
+            value: completeData.fitRationale || "",
+          },
+          {
+            name: "strong_how_did_you_hear_about_us___strong_",
+            value: completeData.hearAbout || "",
+          },
+          {
+            name: "strong_any_questions_for_us___strong_",
+            value: completeData.questions || "",
+          },
+        ];
+
+        // Get HubSpot tracking cookie if available
+        const hutk = document.cookie
+          .split("; ")
+          .find((row) => row.startsWith("hubspotutk="))
+          ?.split("=")[1];
+
+        const context = {
+          pageUri: window.location.href,
+          pageName: document.title,
+        };
+        if (hutk) {
+          context.hutk = hutk;
+        }
+
+        return fetch(HUBSPOT_SUBMIT_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            fields: fields.filter((f) => f.value),
+            context: context,
+          }),
+        });
+      }
+
+      document
+        .getElementById("partnershipForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const submitBtn = this.querySelector('button[type="submit"]');
+          submitBtn.disabled = true;
+          submitBtn.textContent = "Submitting...";
+
+          const formData = new FormData(this);
+          const data = {};
+          formData.forEach((value, key) => {
+            data[key] = value;
+          });
+
+          // Combine with basic info
+          const basicInfo = JSON.parse(
+            localStorage.getItem("partnershipBasicInfo") || "{}",
+          );
+          const completeData = { ...basicInfo, ...data };
+
+          submitToHubSpot(completeData)
+            .then((response) => {
+              if (response.ok) {
+                // Hide form, show thank you
+                document.querySelectorAll(".form-step").forEach((step) => {
+                  step.style.display = "none";
+                });
+                document.querySelector(".form-progress").style.display = "none";
+                document.querySelector(".thank-you").classList.add("active");
+                localStorage.removeItem("partnershipBasicInfo");
+              } else {
+                return response.json().then((err) => {
+                  throw new Error(err.message || "Submission failed");
+                });
+              }
+            })
+            .catch((error) => {
+              console.error("HubSpot submission error:", error);
+              alert(
+                "Something went wrong. Please try again or contact us at partners@digiqc.com",
+              );
+              submitBtn.disabled = false;
+              submitBtn.textContent = "Submit Application";
+            });
+        });
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
